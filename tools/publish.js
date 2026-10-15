@@ -57,23 +57,30 @@ function explainPushError(text) {
   console.log('\n2/4  Tóm tắt thay đổi:');
   git(['add', '-A']);
   const status = git(['status', '--porcelain']).out;
-  if (!status) {
+  git(['fetch', 'origin', BRANCH]);
+  const ahead = parseInt(git(['rev-list', '--count', `origin/${BRANCH}..HEAD`]).out, 10) || 0;
+  if (!status && !ahead) {
     line();
     console.log('✔ Không có gì mới. Website đã là bản mới nhất.');
     const u = pagesUrl(); if (u) console.log('  Link web: ' + u);
     process.exit(0);
   }
-  const files = status.split('\n');
-  const n = (re, st) => files.filter(l => re.test(l.slice(3)) && (!st || l[0] === st)).length;
-  console.log(`   • Ảnh trên web: ${n(/^assets\//, 'A')} thêm mới, ${n(/^assets\//, 'M')} cập nhật, ${n(/^assets\//, 'D')} xoá`);
-  console.log(`   • Tổng số file thay đổi: ${files.length}`);
-  console.log(`   • Nội dung: ${r.summary || 'chỉnh sửa nhỏ'}`);
-  if (r.warnings.length) { console.log('\n   Cảnh báo (không chặn việc đăng):'); r.warnings.forEach(w => console.log('   ' + w)); }
+  if (status) {
+    const files = status.split('\n');
+    const n = (re, st) => files.filter(l => re.test(l.slice(3)) && (!st || l[0] === st)).length;
+    console.log(`   • Ảnh trên web: ${n(/^assets\//, 'A')} thêm mới, ${n(/^assets\//, 'M')} cập nhật, ${n(/^assets\//, 'D')} xoá`);
+    console.log(`   • Tổng số file thay đổi: ${files.length}`);
+    console.log(`   • Nội dung: ${r.summary || 'chỉnh sửa nhỏ'}`);
+    if (r.warnings.length) { console.log('\n   Cảnh báo (không chặn việc đăng):'); r.warnings.forEach(w => console.log('   ' + w)); }
 
-  const msg = 'Update content: ' + (r.summary || 'minor edits');
-  console.log('\n3/4  Lưu phiên bản: "' + msg + '"');
-  const c = git(['commit', '-m', msg]);
-  if (c.code !== 0) { console.log('⛔ Không lưu được phiên bản (commit).\n' + (c.err || c.out)); process.exit(1); }
+    const msg = 'Update content: ' + (r.summary || 'minor edits');
+    console.log('\n3/4  Lưu phiên bản: "' + msg + '"');
+    const c = git(['commit', '-m', msg]);
+    if (c.code !== 0) { console.log('⛔ Không lưu được phiên bản (commit).\n' + (c.err || c.out)); process.exit(1); }
+  } else {
+    console.log(`   • Có ${ahead} phiên bản đã lưu trên máy nhưng chưa đăng lên GitHub.`);
+    console.log('\n3/4  (Không cần lưu thêm)');
+  }
 
   console.log('4/4  Đăng lên GitHub (nếu có cửa sổ đăng nhập hiện ra, hãy đăng nhập)...');
   let p = git(['push', '-u', 'origin', BRANCH]);
