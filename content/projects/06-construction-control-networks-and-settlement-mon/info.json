@@ -1,0 +1,17 @@
+{
+  "title": "Construction Control Networks and Settlement Monitoring",
+  "direction": "mon",
+  "status": "plan",
+  "year": 2027,
+  "summary": "Designing control networks and monitoring procedures for infrastructure projects.",
+  "problem": "Settlement monitoring needs stable reference points that are set out correctly.",
+  "method": "Design the control network and observation schedule for a site.",
+  "outcome": "A practical procedure that survey teams can follow.",
+  "members": [
+    "Student I"
+  ],
+  "tags": [
+    "Surveying",
+    "Control network"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Slope Stability by Numerical Methods",
+  "direction": "num",
+  "status": "done",
+  "year": 2025,
+  "summary": "Comparing safety factors from limit equilibrium and finite element analysis.",
+  "problem": "Different methods can give different safety factors for the same slope.",
+  "method": "Compare limit equilibrium and finite element analyses.",
+  "outcome": "A clear view of when each method is reliable.",
+  "members": [
+    "Student F"
+  ],
+  "tags": [
+    "Slopes",
+    "Factor of safety"
+  ]
+}

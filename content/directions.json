@@ -1,0 +1,22 @@
+[
+  {
+    "id": "soft",
+    "name": "Soft Ground Engineering",
+    "color": "#ff6a3d"
+  },
+  {
+    "id": "num",
+    "name": "Numerical Modelling",
+    "color": "#ff9f0a"
+  },
+  {
+    "id": "mon",
+    "name": "Monitoring & Measurement",
+    "color": "#30b0c7"
+  },
+  {
+    "id": "lab",
+    "name": "Laboratory & Materials",
+    "color": "#7d7aff"
+  }
+]

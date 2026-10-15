@@ -1,0 +1,18 @@
+{
+  "title": "Settlement of Embankments on Soft Clay",
+  "direction": "soft",
+  "status": "doing",
+  "year": 2026,
+  "summary": "Time-dependent settlement of embankments, comparing monitored data with predictions.",
+  "problem": "Embankments on soft clay keep settling long after construction ends.",
+  "method": "Compare monitored settlement with consolidation predictions.",
+  "outcome": "A calibrated prediction approach for design and monitoring.",
+  "members": [
+    "Student A",
+    "Student B"
+  ],
+  "tags": [
+    "Settlement",
+    "Consolidation"
+  ]
+}

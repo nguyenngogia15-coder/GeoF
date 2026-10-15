@@ -1,0 +1,13 @@
+{
+  "name": "geof-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GEOF research group website (static). Content lives in content/, build with tools/build.js",
+  "scripts": {
+    "build": "node tools/build.js",
+    "publish": "node tools/publish.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}

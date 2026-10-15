@@ -1,0 +1,18 @@
+{
+  "title": "PLAXIS 2D Modelling of Embankment Behaviour",
+  "direction": "num",
+  "status": "doing",
+  "year": 2026,
+  "summary": "Finite element models calibrated against measured field response.",
+  "problem": "Numerical models are only useful when their parameters are credible.",
+  "method": "Build finite element models and calibrate them against field response.",
+  "outcome": "Validated model settings for similar embankments.",
+  "members": [
+    "Student D",
+    "Student E"
+  ],
+  "tags": [
+    "PLAXIS",
+    "FEM"
+  ]
+}

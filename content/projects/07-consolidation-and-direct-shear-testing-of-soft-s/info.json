@@ -1,0 +1,18 @@
+{
+  "title": "Consolidation and Direct Shear Testing of Soft Soils",
+  "direction": "lab",
+  "status": "done",
+  "year": 2025,
+  "summary": "Determining soil parameters that feed numerical model calibration.",
+  "problem": "Model calibration depends on reliable soil parameters.",
+  "method": "Run oedometer and direct shear tests on soft soil samples.",
+  "outcome": "A parameter set that feeds the numerical models.",
+  "members": [
+    "Student J",
+    "Student K"
+  ],
+  "tags": [
+    "Oedometer",
+    "Shear"
+  ]
+}

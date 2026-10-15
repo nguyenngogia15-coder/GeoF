@@ -1,0 +1,17 @@
+{
+  "title": "Soil Improvement with Local Materials",
+  "direction": "lab",
+  "status": "plan",
+  "year": 2027,
+  "summary": "Strength gain of soil stabilised with locally available additives.",
+  "problem": "Imported stabilisers are expensive for many sites.",
+  "method": "Mix local additives into soil and measure the strength gain.",
+  "outcome": "Options for low-cost ground improvement.",
+  "members": [
+    "Student L"
+  ],
+  "tags": [
+    "Stabilisation",
+    "Materials"
+  ]
+}

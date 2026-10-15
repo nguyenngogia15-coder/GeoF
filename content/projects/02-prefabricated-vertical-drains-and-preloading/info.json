@@ -1,0 +1,17 @@
+{
+  "title": "Prefabricated Vertical Drains and Preloading",
+  "direction": "soft",
+  "status": "plan",
+  "year": 2027,
+  "summary": "How effectively drains shorten consolidation time in soft clay deposits.",
+  "problem": "Consolidation in thick clay layers takes too long for tight schedules.",
+  "method": "Evaluate drain spacing and preload height in models and tests.",
+  "outcome": "Guidance on drain layouts that shorten waiting time.",
+  "members": [
+    "Student C"
+  ],
+  "tags": [
+    "PVD",
+    "Preloading"
+  ]
+}

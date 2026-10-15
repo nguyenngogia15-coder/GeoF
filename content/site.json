@@ -1,0 +1,38 @@
+{
+  "showPreviewRibbon": true,
+  "description": "A geotechnical research group built on deep research, strong connections and future impact.",
+  "scholar": "https://scholar.google.com/",
+  "pillars": [
+    {
+      "title": "Deep research",
+      "text": "Laboratory testing, numerical modelling and field monitoring, brought together to understand how ground behaves."
+    },
+    {
+      "title": "Strong connections",
+      "text": "Students, faculty, industry partners and research groups working as one network."
+    },
+    {
+      "title": "Future impact",
+      "text": "Results that carry into design, construction and long-term monitoring of real infrastructure."
+    }
+  ],
+  "join": [
+    {
+      "title": "For students",
+      "text": "Join a team that tests, models and measures real ground. Tell us what you would like to work on.",
+      "button": "Join the group",
+      "emailSubject": "Joining GEOF"
+    },
+    {
+      "title": "For partners",
+      "text": "Collaborate on field problems, share data or support research. We are open to new projects.",
+      "button": "Start a conversation",
+      "emailSubject": "Collaboration with GEOF"
+    }
+  ],
+  "contact": {
+    "email": "geof@example.edu.vn",
+    "lab": "Geotechnical Laboratory, Building X, Room 000",
+    "address": "University name, Street, City"
+  }
+}

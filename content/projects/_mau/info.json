@@ -1,0 +1,16 @@
+{
+  // HUONG DAN: copy ca thu muc "_mau" thanh ten moi (vd: 09-ten-de-tai), roi sua file nay.
+  // Thu muc bat dau bang "_" se KHONG hien len web. Thu tu hien thi theo ten thu muc (01-, 02-, ...).
+  // Chu tren web phai bang TIENG ANH. Anh bo cung thu muc: cover.jpg la anh bia (ti le 16:10).
+
+  "title": "Short project title",          // BAT BUOC - ten de tai
+  "direction": "soft",                     // BAT BUOC - id huong nghien cuu trong content/directions.json (soft, num, mon, lab)
+  "status": "plan",                        // BAT BUOC - doing (dang lam) | done (da xong) | plan (du kien)
+  "year": 2026,                            // BAT BUOC - nam (4 chu so)
+  "summary": "One or two sentences describing the project.",   // mo ta ngan
+  "problem": "What problem does it address?",                   // van de
+  "method": "How is it studied?",                               // phuong phap
+  "outcome": "What result is expected or achieved?",            // ket qua
+  "members": ["Student A", "Student B"],   // thanh vien tham gia
+  "tags": ["Keyword 1", "Keyword 2"]       // tu khoa
+}

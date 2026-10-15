@@ -1,0 +1,9 @@
+{
+  // HUONG DAN: copy file nay thanh ten-nguoi.json (vd: nguyen-van-b.json), sua noi dung.
+  // Anh chan dung: bo file anh CUNG TEN vao thu muc nay (vd: nguyen-van-b.jpg), anh vuong la dep nhat.
+  // File bat dau bang "_" se khong hien len web.
+
+  "name": "Student Name",          // BAT BUOC - ho ten (tieng Anh/khong dau)
+  "role": "Researcher",            // chuc danh: Researcher, PhD Student, Master Student, ...
+  "direction": "soft"              // id huong nghien cuu (xem content/directions.json); de "" neu khong co
+}

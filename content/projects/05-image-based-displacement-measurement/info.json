@@ -1,0 +1,18 @@
+{
+  "title": "Image-Based Displacement Measurement",
+  "direction": "mon",
+  "status": "doing",
+  "year": 2026,
+  "summary": "Measuring specimen and structure deformation from photographs with pixel-to-millimetre calibration.",
+  "problem": "Dense measurements are costly with contact sensors.",
+  "method": "Track edges in photographs, calibrated from a ruler in pixels per millimetre.",
+  "outcome": "A low-cost, repeatable displacement measurement workflow.",
+  "members": [
+    "Student G",
+    "Student H"
+  ],
+  "tags": [
+    "Imaging",
+    "Deformation"
+  ]
+}
