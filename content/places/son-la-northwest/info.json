@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "son-la-northwest",
+  "name": "Sơn La (Northwest mountains) — SAMPLE",
+  "province": "Sơn La",
+  "lat": 21.2276769,
+  "lng": 104.1575944,
+  "coordinate_source": "OpenStreetMap Nominatim, relation/1903291 (province centre, approximate). Not field-measured.",
+  "date_visited": "2026-03",
+  "project": "Sample project: slope monitoring",
+  "direction": "mon",
+  "verified": false,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a northern mountain site.",
+  "geology_notes": "Sample text. The northwest of Vietnam is mountainous, with steep slopes and heavy seasonal rain, so landslides and slope instability are common geotechnical concerns.",
+  "members": [],
+  "links": [
+    {
+      "label": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/1903291"
+    }
+  ]
+}

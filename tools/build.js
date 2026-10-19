@@ -17,6 +17,10 @@ const CONTENT = path.join(ROOT, 'content');
 const ASSETS = path.join(ROOT, 'assets');
 const DATA_JS = path.join(ROOT, 'data.js');
 const INDEX_HTML = path.join(ROOT, 'index.html');
+const GEOMAP_HTML = path.join(ROOT, 'geomap.html');
+const GEOMAP_JS = path.join(ROOT, 'geomap-data.js');
+const GEODIR = path.join(ROOT, 'geodata');
+const geocheck = require('./geocheck');
 
 const MAX_SIDE = 1600;
 const QUALITY = 82;
@@ -300,6 +304,69 @@ async function build(opts = {}) {
   });
   warnUnsupported(PA);
 
+  /* ---- places (GeoMap) */
+  const geoRead = f => JSON.parse(fs.readFileSync(path.join(GEODIR, f), 'utf8'));
+  let geo = null;
+  try {
+    geo = { provinces: geoRead('vietnam-provinces.geo.json'), archipelagos: geoRead('vietnam-archipelagos.geo.json'), features: geoRead('archipelago-features.json') };
+  } catch (e) {
+    E(`❌ Thiếu dữ liệu bản đồ trong thư mục geodata/ (${e.message}).\n   Cách sửa: khôi phục thư mục geodata từ GitHub, hoặc chạy lại  node tools/geo-prepare.js`);
+  }
+  const places = [], placeReport = [];
+  const PLD = path.join(CONTENT, 'places');
+  const normName = n => slug(n).replace(/-/g, '');
+  const placeIds = new Set();
+  if (geo) listDir(PLD).filter(e => e.isDirectory() && !isHidden(e.name)).map(e => e.name).sort(naturalSort).forEach(name => {
+    const dir = path.join(PLD, name), file = path.join(dir, 'info.json');
+    const info = readJson(file);
+    if (!info) return;
+    const label = str(info.name) || name;
+    if (!['name', 'province', 'lat', 'lng', 'direction', 'coordinate_source'].map(f => need(info, f, file)).every(Boolean)) return;
+    const lat = Number(info.lat), lng = Number(info.lng);
+    if (!isFinite(lat) || !isFinite(lng) || Math.abs(lat) > 90 || Math.abs(lng) > 180) {
+      E(`❌ Điểm "${label}" (file "${rel(file)}"): lat/lng phải là số thập phân, ví dụ  "lat": 10.0362, "lng": 105.7873.\n   Cách sửa: ghi số, không có chữ, không có dấu nháy, dùng dấu chấm làm dấu thập phân.` + (Math.abs(lat) > 90 && Math.abs(lng) <= 90 ? '\n   Có vẻ bạn đã ĐẢO lat và lng cho nhau (lat là vĩ độ, khoảng 6–24; lng là kinh độ, khoảng 102–118).' : ''));
+      return;
+    }
+    if (!dirIds.has(str(info.direction))) { E(`❌ File "${rel(file)}": direction "${info.direction}" không có trong directions.json.\n   Cách sửa: dùng một trong: ${[...dirIds].join(', ')}.`); return; }
+    const id = slug(info.id || name);
+    if (placeIds.has(id)) { E(`❌ File "${rel(file)}": id "${id}" bị trùng với điểm khác.\n   Cách sửa: đổi "id" thành tên khác.`); return; }
+    placeIds.add(id);
+
+    const loc = geocheck.locate(lat, lng, geo);
+    placeReport.push({ name: label, lat, lng, where: loc.where, in: loc.name, km: +loc.km.toFixed(1) });
+    if (loc.where === 'outside') {
+      const swapped = geocheck.locate(lng, lat, geo).where !== 'outside';
+      E(`❌ Điểm "${label}" (file "${rel(file)}"): tọa độ (${lat}, ${lng}) nằm NGOÀI lãnh thổ Việt Nam (cách bờ/đảo gần nhất ~${Math.round(loc.km)} km).\n   Cách sửa: kiểm tra lại "lat" (vĩ độ, Việt Nam khoảng 6–24) và "lng" (kinh độ, khoảng 102–118).` + (swapped ? '\n   Có vẻ bạn đã ĐẢO lat và lng cho nhau.' : ''));
+      return;
+    }
+    if (loc.where === 'province' && normName(info.province) !== normName(loc.name) && !normName(loc.name).includes(normName(info.province)) && !normName(info.province).includes(normName(loc.name)))
+      W(`⚠️  Điểm "${label}": khai báo tỉnh "${info.province}" nhưng tọa độ nằm trong "${loc.name}" (theo ranh giới 2008 của bản đồ). Nếu tỉnh đã sáp nhập thì bỏ qua; nếu không hãy kiểm tra lại tọa độ.`);
+    if (loc.where === 'near') W(`⚠️  Điểm "${label}": nằm ngoài bờ biển ~${loc.km.toFixed(1)} km (chấp nhận do dữ liệu bản đồ đã đơn giản hóa). Hãy chắc chắn đúng vị trí.`);
+
+    const ps = slug(name), listed = Array.isArray(info.photos) ? info.photos : [];
+    const photos = [], seen = new Set();
+    listed.forEach(p => {
+      const f = typeof p === 'string' ? p : p && p.file;
+      if (!f) return;
+      const abs = path.join(dir, String(f));
+      if (!fs.existsSync(abs) || !IMG_EXT.test(abs)) { W(`⚠️  Điểm "${label}": không thấy ảnh "${f}" trong thư mục ${rel(dir)}/. Bỏ qua ảnh này.`); return; }
+      seen.add(path.basename(abs).toLowerCase());
+      photos.push({ src: image(abs, `places/${ps}/${slug(stem(String(f)))}.jpg`), caption: str(p.caption), credit: str(p.credit) });
+    });
+    findImages(dir).filter(f => !seen.has(f.toLowerCase())).forEach(f => photos.push({ src: image(path.join(dir, f), `places/${ps}/${slug(stem(f))}.jpg`), caption: '', credit: '' }));
+    warnUnsupported(dir);
+
+    const links = (Array.isArray(info.links) ? info.links : []).map(l => typeof l === 'string' ? { label: l, url: l } : { label: str(l && l.label) || str(l && l.url), url: str(l && l.url) })
+      .filter(l => /^https?:\/\//i.test(l.url));
+    const date = str(info.date_visited);
+    places.push({
+      id, name: str(info.name), province: str(info.province), lat: +lat.toFixed(6), lng: +lng.toFixed(6),
+      coordinate_source: str(info.coordinate_source), date_visited: date, year: /^(\d{4})/.test(date) ? +date.slice(0, 4) : null,
+      project: str(info.project), direction: str(info.direction), summary: str(info.summary), geology_notes: str(info.geology_notes),
+      photos, members: strList(info.members), links, verified: info.verified === true, demo: info.demo === true,
+    });
+  });
+
   /* ---- stop here if anything is wrong: do not touch the live site */
   if (errors.length) return { ok: false, errors, warnings };
 
@@ -355,6 +422,19 @@ async function build(opts = {}) {
   const html2 = html.replace(/data\.js\?v=[^"']*/, `data.js?v=${ver}`);
   if (html2 !== html) fs.writeFileSync(INDEX_HTML, html2);
 
+  /* ---- geomap-data.js */
+  const GEOMAP = { geo: geo.provinces, features: geo.features, directions, places };
+  const gText = `/* AUTO-GENERATED by tools/build.js - do not edit by hand. Edit content/places/ and geodata/ instead. */\nwindow.GEOMAP_DATA = ${JSON.stringify(GEOMAP)};\n`;
+  let oldPlaces = 0;
+  try { if (fs.existsSync(GEOMAP_JS)) { const ctx = { window: {} }; vm.runInNewContext(fs.readFileSync(GEOMAP_JS, 'utf8'), ctx); oldPlaces = ctx.window.GEOMAP_DATA.places.length; } } catch (_) {}
+  const gChanged = !fs.existsSync(GEOMAP_JS) || fs.readFileSync(GEOMAP_JS, 'utf8') !== gText;
+  if (gChanged) { fs.writeFileSync(GEOMAP_JS + '.tmp', gText); fs.renameSync(GEOMAP_JS + '.tmp', GEOMAP_JS); }
+  if (fs.existsSync(GEOMAP_HTML)) {
+    const gv = crypto.createHash('md5').update(gText).digest('hex').slice(0, 8);
+    const gh = fs.readFileSync(GEOMAP_HTML, 'utf8'), gh2 = gh.replace(/geomap-data\.js\?v=[^"']*/, `geomap-data.js?v=${gv}`).replace(/src="data\.js\?v=[^"']*/, `src="data.js?v=${ver}`);
+    if (gh2 !== gh) fs.writeFileSync(GEOMAP_HTML, gh2);
+  }
+
   const count = d => d ? {
     images: (d.gallery || []).filter(g => g.img).length + (d.topics || []).filter(t => t.image).length + (d.people || []).filter(p => p.photo).length + (d.partners || []).filter(p => p.logo).length + (d.hero && d.hero.image ? 1 : 0) + (d.mentor && d.mentor.photo ? 1 : 0),
     projects: d.topics.length, people: d.people.length, publications: d.pubs.length, news: d.news.length,
@@ -363,11 +443,12 @@ async function build(opts = {}) {
   const add = (k, one, many) => { const n = b[k] - a[k]; if (n) parts.push(`${n > 0 ? '+' : ''}${n} ${Math.abs(n) === 1 ? one : many}`); };
   add('images', 'image', 'images'); add('projects', 'project', 'projects'); add('people', 'person', 'people');
   add('publications', 'publication', 'publications'); add('news', 'news item', 'news items');
-  if (!parts.length && (changed || written)) parts.push('content edits');
+  { const n = places.length - oldPlaces; if (n) parts.push(`${n > 0 ? '+' : ''}${n} ${Math.abs(n) === 1 ? 'place' : 'places'}`); }
+  if (!parts.length && (changed || gChanged || written)) parts.push('content edits');
 
-  log(`✅ Build xong: ${b.projects} đề tài, ${b.people} thành viên, ${b.publications} bài báo, ${b.images} ảnh (đã nén ${written} ảnh mới).`);
+  log(`✅ Build xong: ${b.projects} đề tài, ${places.length} địa điểm GeoMap, ${b.people} thành viên, ${b.publications} bài báo, ${b.images} ảnh (đã nén ${written} ảnh mới).`);
   warnings.forEach(w => log(w));
-  return { ok: true, errors, warnings, changed, summary: parts.join(', '), counts: b };
+  return { ok: true, errors, warnings, placeReport, changed: changed || gChanged, summary: parts.join(', '), counts: b };
 }
 
 module.exports = { build };

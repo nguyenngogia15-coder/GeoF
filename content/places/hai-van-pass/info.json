@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "hai-van-pass",
+  "name": "Hải Vân Pass — SAMPLE",
+  "province": "Đà Nẵng",
+  "lat": 16.1875,
+  "lng": 108.13083333,
+  "coordinate_source": "Wikidata Q1477078 (CC0); cross-checked with OpenStreetMap Nominatim way/303148361 — the two sources are 2.1 km apart.",
+  "date_visited": "2026-01",
+  "project": "Sample project: slope stability by numerical methods",
+  "direction": "num",
+  "verified": true,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a mountain-pass slope site on the central coast.",
+  "geology_notes": "Sample text. The Hải Vân range reaches the sea on the central coast, so steep slopes sit directly above roads and the shoreline. Weathered rock slopes like these are typical subjects for slope stability analysis.",
+  "members": [],
+  "links": [
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q1477078"
+    }
+  ]
+}

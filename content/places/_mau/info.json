@@ -1,0 +1,24 @@
+{
+  // HUONG DAN: copy thu muc "_mau" thanh ten moi (vd: tra-vinh-ven-bien), roi sua file nay.
+  // Thu muc bat dau bang "_" KHONG hien len web. Bo anh vao CUNG thu muc nay.
+  // Chu tren web phai bang TIENG ANH. Toa do phai CHINH XAC (khong doan): lay tu GPS/OSM/Google Maps roi ghi nguon.
+
+  "id": "ten-dia-diem",                          // ma ngan, khong dau, khong khoang trang (bo trong thi lay theo ten thu muc)
+  "name": "Place name",                          // BAT BUOC - ten dia diem
+  "province": "Cần Thơ",                         // BAT BUOC - tinh/thanh
+  "lat": 10.0362,                                // BAT BUOC - vi do, so thap phan (WGS84)
+  "lng": 105.7873,                               // BAT BUOC - kinh do, so thap phan (WGS84)
+  "coordinate_source": "GPS on site, 2026-05-01",// BAT BUOC - toa do lay tu dau (GPS, OSM, Google Maps, ban do dia chinh...)
+  "date_visited": "2026-05",                     // ngay di thuc dia: 2026-05-14 hoac 2026-05
+  "project": "Name of the related project",      // de tai lien quan (tuy chon)
+  "direction": "soft",                           // BAT BUOC - soft | num | mon | lab (xem content/directions.json)
+  "summary": "One or two sentences about the visit.",   // tom tat
+  "geology_notes": "Soil and rock types, and why this place matters for geotechnics.", // kien thuc dia chat / dia ky thuat
+  "photos": [                                    // anh nam trong cung thu muc; credit = nguoi chup
+    { "file": "photo-01.jpg", "caption": "Caption in English", "credit": "Photo: Student A" }
+  ],
+  "members": ["Student A", "Student B"],         // thanh vien di cung
+  "links": [ { "label": "Report", "url": "https://example.com" } ],   // link them (tuy chon)
+  "verified": false,                             // true = da kiem tra toa do bang it nhat 2 nguon; false = vi tri gan dung (hien vien net dut)
+  "demo": false                                  // true = du lieu mau (hien nhan "Demo data"). Du lieu that: de false hoac xoa dong nay
+}

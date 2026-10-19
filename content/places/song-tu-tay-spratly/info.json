@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "song-tu-tay-spratly",
+  "name": "Song Tử Tây Island (Spratly Islands) — SAMPLE",
+  "province": "Khánh Hòa",
+  "lat": 11.433333,
+  "lng": 114.333333,
+  "coordinate_source": "Wikidata Q3137837 (CC0), single source. Not field-measured.",
+  "date_visited": "2026-04",
+  "project": "Sample project: coral island foundation conditions",
+  "direction": "lab",
+  "verified": false,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder to test the Trường Sa (Spratly Islands) display.",
+  "geology_notes": "Sample text. Islands of the Spratly group are coral cays and reef platforms made of coral sand and coral rubble. Their foundations and shorelines pose geotechnical questions unlike those on the mainland.",
+  "members": [],
+  "links": [
+    {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/wiki/Q3137837"
+    }
+  ]
+}

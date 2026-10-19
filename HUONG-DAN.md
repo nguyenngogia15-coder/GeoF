@@ -25,6 +25,7 @@ Bạn chỉ cần làm **2 việc**:
 | Tin tức | `content/news.json` |
 | Cột mốc | `content/milestones.json` |
 | Đối tác | `content/partners/` |
+| Địa điểm thực địa (trang GeoMap) | `content/places/<tên-địa-điểm>/` |
 
 Các thư mục/file bắt đầu bằng dấu gạch dưới `_` (ví dụ `_mau`) là **bản mẫu**, không hiện lên web.
 
@@ -96,6 +97,16 @@ Mở `content/publications.json`, thêm một khối vào danh sách (nhớ dấ
 - `content/news.json`: mỗi tin có `date` (vd `"Nov 2026"`), `title`, `tag`. Tin mới thêm lên đầu danh sách.
 - `content/milestones.json`: `year` và `text`.
 - `content/partners/partners.json`: ghi `name` và `logo` (tên file logo bỏ trong cùng thư mục).
+
+## 5b. Thêm địa điểm thực địa (trang GeoMap)
+
+1. Vào `content/places/`, copy thư mục `_mau`, đổi thành tên mới (không dấu), ví dụ `tra-vinh-ven-bien`.
+2. Mở `info.json`, sửa các dòng (mỗi dòng có chú thích tiếng Việt). Chữ hiện lên web phải bằng tiếng Anh.
+3. **Tọa độ `lat` (vĩ độ) và `lng` (kinh độ) phải đúng**, đừng đoán. Cách lấy: mở Google Maps, bấm chuột phải vào đúng vị trí, bấm vào dòng số đầu tiên để copy (dạng `10.0362, 105.7873`: số đầu là lat, số sau là lng). Ghi nguồn vào `coordinate_source`.
+4. Bỏ ảnh vào cùng thư mục (ghi trong `photos` kèm `caption`, `credit`).
+5. `"demo": true` là dữ liệu mẫu (hiện nhãn "Demo data"). Dữ liệu thật thì đặt `false` hoặc xóa dòng đó. Xóa 7 thư mục mẫu (có chữ SAMPLE) khi đã có dữ liệu thật.
+6. `"verified": true` chỉ khi bạn đã kiểm tra tọa độ bằng ít nhất 2 nguồn. `false` thì điểm hiện viền nét đứt và ghi chú "Approximate location".
+7. Kiểm tra: nhấp đúp `preview.bat`, hoặc chạy `node tools/check-places.js`. Điểm nào nằm ngoài lãnh thổ Việt Nam sẽ báo lỗi bằng tiếng Việt kèm tên điểm.
 
 ## 6. Đăng lên web
 

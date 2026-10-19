@@ -1,0 +1,2005 @@
+{
+  "head" : {
+    "vars" : [ "i", "iLabel", "viLabel", "c", "tLabel", "arch" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q17151988"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.86 8.94)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "London Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Luân Đôn"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18663251"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.5 10.75)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Loai-ta Bank and Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Loại Ta"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q19646448"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.5 10.25)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tizard Bank"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Nam Yết"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q26162586"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.7679 16.5249)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dragon Hole"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Lỗ Rồng"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "blue hole"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141237233"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.343333333 9.898333333)"
+      },
+      "iLabel" : {
+        "type" : "literal",
+        "value" : "Q141237233"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Nhạn Gia"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141267372"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.65 16.458333333)"
+      },
+      "iLabel" : {
+        "type" : "literal",
+        "value" : "Q141267372"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Ngự Bình"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q141267769"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.628333333 16.533333333)"
+      },
+      "iLabel" : {
+        "type" : "literal",
+        "value" : "Q141267769"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Đèn Pha"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q393044"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.3375 16.834166666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woody Island (SCS)"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Phú Lâm"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q393044"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.3375 16.834166666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Woody Island (SCS)"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Phú Lâm"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q707664"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.413611111 10.386111111)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Silangang Ligaw Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bàn Than"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q784397"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.633333333 16.5)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Battle of the Paracel Islands"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Hải chiến Hoàng Sa 1974"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "naval battle"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q814618"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.54977222 17.08229444)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Bắc (Hoàng Sa)"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q890078"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.55 5.9)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Luconia Shoals"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm bãi cạn Luconia"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1005307"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northeast Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Song Tử Đông"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1005307"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Northeast Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Song Tử Đông"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089447"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.933333333 7.883333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amboyna Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "An Bang"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089447"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.83333 7.91667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amboyna Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "An Bang"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089447"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.933333333 7.883333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amboyna Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "An Bang"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1089447"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.83333 7.91667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amboyna Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "An Bang"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1098039"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.506944444 16.446388888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Money Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Quang Ảnh"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1150068"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.062 10.9133)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Subi Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Xu Bi"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1150068"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.062 10.9133)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Subi Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Xu Bi"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1927337"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.286 9.713888888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson South Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Gạc Ma"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1927337"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.25 9.7)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johnson South Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Gạc Ma"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1932207"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(115.0 11.083333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "West York Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Bến Lạc"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2232625"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.283333333 11.052222222)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pag-asa Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Thị Tứ"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2232625"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.283333333 11.052222222)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pag-asa Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Thị Tứ"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2405955"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.240625 6.349388888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Louisa Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Louisa"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2405955"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.240625 6.349388888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Louisa Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Louisa"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2405955"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.240625 6.349388888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Louisa Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Louisa"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2405955"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.240625 6.349388888)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Louisa Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Louisa"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3137837"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.333333333 11.433333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southwest Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Song Tử Tây"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "disputed territory"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3137837"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.333333333 11.433333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Southwest Cay"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Song Tử Tây"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3235143"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.2 15.783333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Triton Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Tri Tôn"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3273381"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.92 8.64472)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spratly Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Trường Sa Lớn"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5191865"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.851388888 8.883333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Cuarteron Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Châu Viên"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5274933"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.5 8.116666666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Investigator Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Thám Hiểm"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5274933"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.5 8.116666666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Investigator Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Thám Hiểm"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5447293"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.966666666 9.616666666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Fiery Cross Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Chữ Thập"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "artificial island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5641730"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.266666666 8.866666666)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Half Moon Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Trăng Khuyết"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6775400"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.3 8.16666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barque Canada Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Thuyền Chài"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6775400"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.3 8.16666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barque Canada Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Thuyền Chài"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6775400"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.3 8.16666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Barque Canada Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Thuyền Chài"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6821698"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.325 10.89666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amy Douglas Bank"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Trung Lễ"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6831601"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.8516667 10.06166667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Discovery Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Lớn"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6831601"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(113.75 10.16667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Great Discovery Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Lớn"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6853654"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.675 16.575)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Quanfu Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Ốc Hoa (đảo)"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6855008"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(115.85 9.65)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Second Thomas Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cỏ Mây"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6856844"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.325 16.95556)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Middle Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Trung"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6856844"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.32416667 16.95527778)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Middle Island"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đảo Trung"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7306628"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.833 11.3333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Reed Tablemount"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Cỏ Rong"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "guyot"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10742295"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.56666667 9.73333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabina Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Sa Bin"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10742295"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.6 9.71666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sabina Shoal"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Sa Bin"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10840508"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.3972222 11.4625)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Reef"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Đá Bắc"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10871651"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.28333333 11.05)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Thitu Island and Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Thị Tứ"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10908009"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.6783333 10.49166667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nanfang Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Nam"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10908009"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(116.65 10.48333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nanfang Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Nam"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10908962"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.53333333 7.51666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rifleman Bank"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Vũng Mây"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "coast"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10908962"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.53333333 7.51666667)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rifleman Bank"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Bãi Vũng Mây"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "reef"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10911930"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "North Danger Reefs"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Cụm Song Tử"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "atoll"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10949971"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.33333333 16.83333333)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Amphitrite Group"
+      },
+      "viLabel" : {
+        "type" : "literal",
+        "value" : "Nhóm đảo An Vĩnh"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island group"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10902708"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.35 11.45)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beiwai Shoal"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "shoal"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10946965"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q215664"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(114.16666667 7.7)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Asdasier Bank"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "char"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q11131020"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(111.66666667 16.5)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Crescent Group"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "island group"
+      }
+    }, {
+      "i" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q114374367"
+      },
+      "arch" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q274388"
+      },
+      "c" : {
+        "datatype" : "http://www.opengis.net/ont/geosparql#wktLiteral",
+        "type" : "literal",
+        "value" : "Point(112.334 16.831966)"
+      },
+      "iLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsingtao field station"
+      },
+      "tLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "astronomical observatory"
+      }
+    } ]
+  }
+}

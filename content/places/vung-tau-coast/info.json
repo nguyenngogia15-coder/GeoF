@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "vung-tau-coast",
+  "name": "Vũng Tàu (southern coast) — SAMPLE",
+  "province": "Bà Rịa - Vũng Tàu",
+  "lat": 10.348189,
+  "lng": 107.0753349,
+  "coordinate_source": "OpenStreetMap Nominatim, relation/3610162 (area centre, approximate). Not field-measured.",
+  "date_visited": "2025-12",
+  "project": "Sample project: coastal foundation conditions",
+  "direction": "num",
+  "verified": false,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a southern coastal site.",
+  "geology_notes": "Sample text. Coastal sites combine sand, soft marine sediments and nearby hills, so foundation conditions can change quickly over short distances.",
+  "members": [],
+  "links": [
+    {
+      "label": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/3610162"
+    }
+  ]
+}

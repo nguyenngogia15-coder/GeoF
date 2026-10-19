@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "thaibinh-red-river-delta",
+  "name": "Thái Bình (Red River Delta) — SAMPLE",
+  "province": "Thái Bình",
+  "lat": 20.4031348,
+  "lng": 106.5941615,
+  "coordinate_source": "OpenStreetMap Nominatim, relation/1901019 (area centre, approximate). Not field-measured.",
+  "date_visited": "2025-11",
+  "project": "Sample project: laboratory testing of delta soils",
+  "direction": "lab",
+  "verified": false,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a Red River Delta site.",
+  "geology_notes": "Sample text. The Red River Delta consists of Holocene alluvial deposits laid down by the river, with soft clay layers and sandy layers at shallow depth. Soil parameters from laboratory tests are the basis for settlement and bearing-capacity design here.",
+  "members": [],
+  "links": [
+    {
+      "label": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/1901019"
+    }
+  ]
+}

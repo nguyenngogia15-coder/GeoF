@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "cantho-mekong-delta",
+  "name": "Cần Thơ (Mekong Delta) — SAMPLE",
+  "province": "Cần Thơ",
+  "lat": 10.0362046,
+  "lng": 105.7872656,
+  "coordinate_source": "OpenStreetMap Nominatim, relation/1874283 (area centre, approximate). Not field-measured.",
+  "date_visited": "2025-09",
+  "project": "Sample project: settlement of embankments on soft clay",
+  "direction": "soft",
+  "verified": false,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a Mekong Delta site used to test the map.",
+  "geology_notes": "Sample text. The Mekong Delta is built on Holocene deltaic deposits, with soft clay and silty clay near the surface that are highly compressible. This is why embankments and roads there can keep settling for years.",
+  "members": [],
+  "links": [
+    {
+      "label": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/1874283"
+    }
+  ]
+}

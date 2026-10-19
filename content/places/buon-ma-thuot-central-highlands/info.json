@@ -1,0 +1,22 @@
+{
+  "demo": true,
+  "id": "buon-ma-thuot-central-highlands",
+  "name": "Buôn Ma Thuột (Central Highlands) — SAMPLE",
+  "province": "Đắk Lắk",
+  "lat": 12.6612624,
+  "lng": 108.0310213,
+  "coordinate_source": "OpenStreetMap Nominatim, relation/3273657; cross-checked with Wikidata Q33469 — the two sources are 2.1 km apart.",
+  "date_visited": "2026-02",
+  "project": "Sample project: image-based displacement measurement",
+  "direction": "mon",
+  "verified": true,
+  "summary": "SAMPLE ENTRY — demo data, not a real GEOF field visit. Placeholder for a Central Highlands site.",
+  "geology_notes": "Sample text. The Central Highlands are known for basalt plateaus and deeply weathered red soils. Such soils behave very differently from the soft deltaic clays of the lowlands.",
+  "members": [],
+  "links": [
+    {
+      "label": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/3273657"
+    }
+  ]
+}
