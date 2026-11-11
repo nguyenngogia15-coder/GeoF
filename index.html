@@ -5,13 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Geo.F – Geotechnics for the Future</title>
 <meta name="description" content="GEOF is a geotechnical research group built on deep research, strong connections and future impact.">
-<meta name="theme-color" content="#000000">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://nguyenngogia15-coder.github.io/GeoF/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23c62d1a'/%3E%3Cstop offset='1' stop-color='%23f08a1b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='46' font-family='Helvetica,Arial,sans-serif' font-size='40' font-weight='700' text-anchor='middle' fill='white'%3EF%3C/text%3E%3C/svg%3E">
 <!-- Share preview (Zalo, Facebook, iMessage...). Add a 1200x630 image named og-image.png, then replace the content below with its full address, e.g. https://USERNAME.github.io/REPO/og-image.png -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="Geo.F – Geotechnics for the Future">
 <meta property="og:description" content="GEOF is a geotechnical research group built on deep research, strong connections and future impact.">
-<meta property="og:image" content="og-image.png">
+<meta property="og:url" content="https://nguyenngogia15-coder.github.io/GeoF/">
+<meta property="og:image" content="https://nguyenngogia15-coder.github.io/GeoF/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <style>
 :root{
@@ -50,6 +55,7 @@ h2.title .soft{color:var(--muted)}
 .dark .sub{color:#a1a1a6}.dark .eyebrow{color:#ff8a5c}
 .pill{display:inline-block;background:#0071e3;color:#fff;border-radius:980px;padding:12px 24px;font-size:17px;transition:filter .2s}
 .pill:hover{filter:brightness(1.12)}
+@media(pointer:coarse){.link,.flinks a,.cinfo a,.detail a.go{display:inline-block;padding:9px 0}.doi{padding:9px 16px}}
 .link{color:var(--blue);font-size:19px}.link::after{content:" ›"}.link:hover{text-decoration:underline}
 
 /* image slots: show a labelled placeholder until a real photo is set in DATA */
@@ -91,6 +97,7 @@ h2.title .soft{color:var(--muted)}
 .pillars-line{margin-top:40px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px 0;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:500}
 .pillars-line span{padding:0 18px}
 .pillars-line span+span{border-left:1px solid var(--orange)}
+@media(max-width:734px){.pillars-line{flex-direction:column;align-items:center;gap:8px;margin-top:32px}.pillars-line span+span{border-left:0}}
 .hero-media{margin-top:56px}
 .hero-media .media{aspect-ratio:21/9;border-radius:32px}
 @media(max-width:734px){.hero-media .media{aspect-ratio:4/3;border-radius:24px}}
@@ -165,13 +172,19 @@ h2.title .soft{color:var(--muted)}
 .pmo span{font-size:15px;line-height:1.45;color:#a1a1a6}
 .maphint{position:relative;z-index:1;text-align:center;color:#86868b;font-size:14px;margin-top:20px;min-height:20px}
 @media(max-width:820px){.detail{grid-template-columns:1fr}.pmo{grid-template-columns:1fr;gap:12px}}
+@media(max-width:940px){
+  .tree{grid-template-columns:96px minmax(0,1fr) minmax(0,1.15fr);column-gap:30px}
+  .rootbtn{width:96px;height:96px;font-size:20px}
+  .node{min-width:0;padding:13px 14px}.node b{font-size:15.5px}.node.sm b{font-size:14px}
+  .mapcard{padding:30px 24px 22px}
+}
 @media(max-width:700px){
   .mapcard{padding:22px 14px 18px;border-radius:24px}
-  .tree{grid-template-columns:52px minmax(0,1fr) minmax(0,1fr);column-gap:12px;min-height:420px}
-  .rootbtn{width:52px;height:52px;font-size:12.5px}
-  .node{padding:9px 8px;gap:6px;border-radius:13px;min-width:0;min-height:44px}
-  .node b{font-size:11.5px;overflow-wrap:break-word;hyphens:auto}.node small,.node .chev{display:none}
-  .node.sm b{font-size:12px}.node .dot{width:8px;height:8px}
+  .tree{grid-template-columns:46px minmax(0,1fr) minmax(0,1.2fr);column-gap:10px;min-height:300px}
+  .rootbtn{width:46px;height:46px;font-size:11.5px}
+  .node{padding:9px 8px;gap:6px;border-radius:13px;min-width:0;min-height:44px}.node.sm{padding:9px 8px;border-radius:13px}
+  .node b{font-size:11.5px;overflow-wrap:break-word;letter-spacing:-.02em}.node small,.node .chev{display:none}
+  .node.sm b{font-size:11.5px}.node .dot{width:8px;height:8px}
   .hintbox{font-size:13px;padding:18px 12px}
   .detail{padding:22px 20px}
 }
@@ -200,7 +213,7 @@ h2.title .soft{color:var(--muted)}
 .topic h3{font-size:22px;line-height:1.17;font-weight:600;letter-spacing:-.02em;margin:10px 0 8px;padding-right:36px}
 .topic p{color:var(--muted);font-size:16px;line-height:1.47}
 .more{max-height:0;overflow:hidden;opacity:0;transition:max-height .45s ease,opacity .35s}
-.topic.open .more{max-height:460px;opacity:1;margin-top:14px}
+.topic.open .more{max-height:1200px;opacity:1;margin-top:14px}
 .topic.open .plus{transform:rotate(45deg)}
 .more .pmo{grid-template-columns:1fr;gap:12px;margin-top:0}
 .more .pmo span{color:var(--muted)}
@@ -214,6 +227,8 @@ h2.title .soft{color:var(--muted)}
 .gal figure{position:relative;margin:0;border-radius:24px;overflow:hidden;grid-column:span var(--cs,1);grid-row:span var(--rs,1)}
 .gal .media{height:100%;aspect-ratio:auto;border-radius:0}.gal .media.ph{border:0}
 .gal figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 18px 14px;font-size:14px;font-weight:500;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.6))}
+.gal figcaption:empty{display:none}
+.gal figure.noimg figcaption{background:none;color:var(--ph-ink)}
 @media(max-width:734px){.gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:12px}.gal figure{grid-column:span 1;grid-row:span 1}.gal figure.first{grid-column:span 2;grid-row:span 2}.gal figure.lone{grid-column:span 2}}
 
 /* people */
@@ -500,7 +515,7 @@ function galleryLayout(n){
   return s;
 }
 const galSpans=galleryLayout(DATA.gallery.length);
-$("#galGrid").innerHTML = DATA.gallery.map((g,i)=>`<figure class="${i===0&&DATA.gallery.length>2?"first":""}${i===DATA.gallery.length-1&&(DATA.gallery.length===1||(DATA.gallery.length>2&&DATA.gallery.length%2===0))?" lone":""}" style="--cs:${galSpans[i][0]};--rs:${galSpans[i][1]}">${media(g.img,"Photo",null,g.cap)}<figcaption>${esc(g.cap)}</figcaption></figure>`).join("");
+$("#galGrid").innerHTML = DATA.gallery.map((g,i)=>`<figure class="${g.img?"":"noimg "}${i===0&&DATA.gallery.length>2?"first":""}${i===DATA.gallery.length-1&&(DATA.gallery.length===1||(DATA.gallery.length>2&&DATA.gallery.length%2===0))?" lone":""}" style="--cs:${galSpans[i][0]};--rs:${galSpans[i][1]}">${media(g.img,"Photo",null,g.cap)}<figcaption>${esc(g.cap)}</figcaption></figure>`).join("");
 
 $("#peopleGrid").innerHTML = DATA.people.map(p=>{
   const d=dir(p.dir);
@@ -534,7 +549,7 @@ function renderPubs(){
   const ys=[...new Set(DATA.pubs.map(p=>p.y))].sort((a,b)=>b-a);
   $("#pubChips").innerHTML = `<button class="chip ${!pubYear?'on':''}" data-y="">All years</button>` + ys.map(y=>`<button class="chip ${pubYear===y?'on':''}" data-y="${y}">${y}</button>`).join("");
   $("#pubList").innerHTML = DATA.pubs.filter(p=>!pubYear||p.y===pubYear).map(p=>
-    `<article class="pub"><div class="py">${p.y}</div><div><b>${p.t}</b><span class="v">${p.a} · ${p.v}</span></div>${p.doi?`<a class="doi" href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">DOI</a>`:"<span></span>"}</article>`).join("");
+    `<article class="pub"><div class="py">${p.y}</div><div><b>${p.t}</b><span class="v">${[p.a,p.v].filter(Boolean).join(" · ")}</span></div>${p.doi?`<a class="doi" href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">DOI</a>`:"<span></span>"}</article>`).join("");
 }
 $("#pubChips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(b){pubYear=b.dataset.y?+b.dataset.y:null;renderPubs()}});
 renderPubs();
@@ -552,7 +567,7 @@ function renderChips(){
 $("#chips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(b)setDir(b.dataset.d||null)});
 $("#statusChips").addEventListener("click",e=>{const b=e.target.closest(".chip");if(b){selStatus=b.dataset.s||null;update()}});
 
-const pmo = t => `<div class="pmo"><div><b>Problem</b><span>${t.problem}</span></div><div><b>Method</b><span>${t.method}</span></div><div><b>Outcome</b><span>${t.outcome}</span></div></div>`;
+const pmo = t => { const parts=[["Problem",t.problem],["Method",t.method],["Outcome",t.outcome]].filter(([,v])=>v); return parts.length?`<div class="pmo">${parts.map(([k,v])=>`<div><b>${k}</b><span>${v}</span></div>`).join("")}</div>`:""; };
 function renderTopics(){
   const list = DATA.topics.filter(t=>(!selDir||t.dir===selDir)&&(!selStatus||t.status===selStatus));
   $("#grid").innerHTML = list.length ? list.map(t=>{
